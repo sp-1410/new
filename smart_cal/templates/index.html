@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Calendar</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>📅 Smart Calendar</h1>
+
+    <div class="container">
+        <h2>Add Event</h2>
+        <input type="text" id="eventName" placeholder="Event Name">
+        <input type="date" id="eventDate">
+        <button onclick="addEvent()">Add Event</button>
+
+        <h2>Upcoming Events</h2>
+        <ul id="eventList"></ul>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
